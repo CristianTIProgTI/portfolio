@@ -1,5 +1,7 @@
 body, html {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .wrapper {
     display: flex;
@@ -8,10 +10,11 @@ body, html {
 }
 .content {
     flex: 1;
+    padding: 0;
 }
 
 .home {
-    background-image: url("imagens\home.svg");
+    background-image: url("imagens/home.svg");
   }
 
 .material-symbols-outlined {
@@ -20,4 +23,19 @@ body, html {
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+.content.container {
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url('imagens/Fundo_programador.jpeg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  /* margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
 }
